@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "EEPROM_V2_3dmodels")(type "KiCad")(uri "${KIPRJMOD}/EEPROM_V2_3dmodels.kicad_sym")(options "")(descr ""))
+)
