@@ -8,6 +8,7 @@ Custom Serializer Deserializer (SerDes) PCB designed to handle read/write operat
 Data from the host computer is transferred through serial communication to the Arduino. The Arduino writes the serial data into the SerDes which outputs the data in parallel to the EEPROM for storage.
 
 To read information from the EEPROM, the Arduino loads the parallel data output into the SerDes and reconstructs the byte packet bit by bit. A high level functional block diagram explaining the system can be seen below.
+![image](https://github.com/DorianKnight/EEPROM_Programmer/blob/main/readme_images/High%20level%20user%20flow.png)
 ![image](https://github.com/DorianKnight/EEPROM_Programmer/blob/main/readme_images/Motherboard%20functional%20diagram(V2).png)
 
 ## SerDes
